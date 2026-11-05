@@ -2,6 +2,12 @@
 
 Website tĩnh bằng **HTML, CSS và JavaScript thuần**, không cần npm hoặc bước build. Nội dung được cập nhật theo mục lục Udemy đã truy cập ngày 05/11/2026: **18 phần, 312 lecture**. Tên và số bài giữ nguyên nguồn, gồm phần mở đầu, bài đọc, lab, video giải và các phần cập nhật Helm/Kustomize.
 
+## Buổi triển khai Section 2 · 05/11/2026
+
+Lecture 6–49 có bản chi tiết theo mẫu đã duyệt: diễn giải nguồn, ví dụ giảng viên, phần tự luyện, cách kiểm tra và điểm dễ nhầm. Bài lab có checklist riêng; video lời giải tập trung phương pháp. Lecture 22 chưa có phụ đề và 47 là mục hình ảnh vẫn được ghi rõ. Các phần ngoài Section 2 giữ bản tóm tắt.
+
+Mở `#/phan/2`. Dữ liệu chi tiết nằm trong `section2.js`; phải đưa file này lên GitHub cùng `index.html`, `app.js` và `style.css`. Tiến độ dùng nguyên ID/prefix đã có, không lấy 39/44 từ ảnh Udemy làm tiến độ sổ tay.
+
 ## Nội dung và giới hạn
 
 - 201 video: có phụ đề để đối chiếu 200 video; lecture 22 “Demo: Accessing Labs” chưa có bảng phụ đề trong phiên kiểm tra.
@@ -30,7 +36,7 @@ Mở http://127.0.0.1:8080. Cũng có thể mở index.html trực tiếp. Chữ
 Sau khi xem diff và quyết định cập nhật, có thể dùng:
 
 ```sh
-git add index.html style.css app.js content.js course.js .nojekyll .gitignore README.md COURSE_SOURCES.md
+git add index.html style.css app.js content.js course.js section2.js SECTION2_REVIEW.md .nojekyll .gitignore README.md COURSE_SOURCES.md
 git commit -m "Align CKA handbook with Udemy course lectures"
 git push origin main
 ```
